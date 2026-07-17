@@ -3,6 +3,7 @@ import Login from './pages/Login'
 import Register from './pages/Register'
 import Dashboard from './pages/Dashboard'
 import DSA from './pages/DSA'
+import Applications from './pages/Applications'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/register" element={<Register />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/dsa" element={<DSA />} />
+          <Route path="/applications" element={<Applications />} />
         </Routes>
       </div>
     </BrowserRouter>
