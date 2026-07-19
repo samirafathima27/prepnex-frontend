@@ -4,6 +4,7 @@ import Register from './pages/Register'
 import Dashboard from './pages/Dashboard'
 import DSA from './pages/DSA'
 import Applications from './pages/Applications'
+import Resumes from './pages/Resumes'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/dsa" element={<DSA />} />
           <Route path="/applications" element={<Applications />} />
+          <Route path="/resumes" element={<Resumes />} />
         </Routes>
       </div>
     </BrowserRouter>
